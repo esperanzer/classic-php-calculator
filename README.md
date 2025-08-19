@@ -33,3 +33,32 @@ It’s called **classic** because it’s the most basic form of a calculator pro
    ```bash
    git clone https://github.com/yourusername/classic-php-calculator.git
    cd classic-php-calculator
+
+   Run the script:
+
+php calculator.php
+
+
+Follow the prompts:
+
+Enter first number: 10
+Enter second number: 5
+Choose operation (+, -, *, /): *
+Result: 50
+
+📂 Project Structure
+classic-php-calculator/
+│
+├── calculator.php   # Main calculator script
+├── README.md        # Project documentation
+
+📖 What I Learned
+Handling user input in PHP with fgets(STDIN)
+Using functions to organize code
+Implementing switch-case for decision making
+Error handling with try/catch
+
+📜 License
+This project is open-source and available under the MIT License
+
+
